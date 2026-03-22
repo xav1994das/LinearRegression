@@ -23,6 +23,6 @@ fib_itr=iter(Fibonacci(10))
 while True:
     try:
         print(next(fib_itr))
-    except Exception as e:
-        print("exceptiopn caught",e)
+    except Exception as ep:
+        print("exceptiopn caught",ep)
         break
