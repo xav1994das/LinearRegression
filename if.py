@@ -4,3 +4,4 @@ for no in l1:
     sum+=no
 
 print(sum)
+print ("hello world")
