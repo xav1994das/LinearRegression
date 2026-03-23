@@ -8,4 +8,4 @@ if __name__=="__main__":
     args=parser.parse_args()
 
     res=(float(args.physics)+float(args.chemistry)+float(args.maths))/3
-    print(res)
+    print("arg result", res)
